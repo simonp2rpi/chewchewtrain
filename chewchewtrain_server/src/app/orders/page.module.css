@@ -1,0 +1,22 @@
+.title {
+  padding: 30px;
+}
+
+.order {
+  background-color: #444444;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 6px;
+}
+
+.order_list {
+  margin-bottom: 24px;
+}
+
+.order_button {
+  margin-right: 8px;
+}
+
+.order_pre_sublist {
+  margin-bottom: 0;
+}

@@ -1,0 +1,180 @@
+body {
+    background-color: #272727;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pfp {
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.box {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+}
+
+input[type=text] {
+    width: 650px;
+}
+
+.pfp-box {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: white;
+}
+
+#login {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.btn {
+    margin: auto;
+    display: block;
+    padding-top: 25px;
+}
+
+button {
+    background-color: white;
+}
+
+#save-button {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.create {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+a, a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#title {
+    padding: 30px;
+    display: flex;
+}
+
+#centerTitle {
+    flex-grow: 1;
+}
+
+#col-title {
+    font-size: 30px;
+    text-shadow: #d6de7d;
+}
+.col-mid {
+    border-left: 2px white solid;
+    border-right: 2px white solid;
+}
+
+.pfp{
+    float: left;
+    padding: 15px;
+    
+}
+
+.pfp-row{
+    float: right;
+    padding-right: 400px;
+}
+
+.navbar-custom {
+    background-color: rgb(8, 66, 152);
+}
+
+#cart:hover {
+    cursor: pointer;
+}
+
+#cart {
+    background-color: white;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: 0;
+    position: absolute;
+    right: 5%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0,0.1);
+}
+
+.modal-info {
+    background-color: #fefefe;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+#test {
+    text-align: center;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+body {
+    background-color: #4fb9af;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+}
+
+.btn {
+    margin: auto;
+    display: block;
+    padding-top: 25px;
+}
+
+button {
+    background-color: white;
+}
+
+#login {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#create {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+}

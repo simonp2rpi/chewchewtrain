@@ -1,0 +1,154 @@
+body {
+  background-color: #272727;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 3px solid white;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: auto;
+  width: 100%;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #272727;
+}
+
+.pfp-box {
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  height: 20px;
+  background-color: white;
+}
+
+#login {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+button {
+  background-color: white;
+}
+
+a,
+a:link,
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dddddd;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#col-title {
+  font-size: 30px;
+  text-shadow: #d6de7d;
+}
+
+.pfp {
+  float: left;
+  padding: 15px;
+
+}
+
+.pfp-row {
+  float: right;
+  padding-right: 400px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#cart:hover {
+  cursor: pointer;
+}
+
+#cart {
+  background-color: white;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: 0;
+  right: 5%;
+  z-index: 2;
+}
+
+.cartSection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.centerTitle {
+  flex-grow: 1;
+}
+
+#dropdown-content {
+  position: absolute;
+  background-color: #555555;
+  min-width: 300px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  min-height: 360px;
+  right: 0px;
+  display: flex;
+  border-radius: 0px 25px 0px 0px;
+  padding: 15px;
+  flex-direction: column;
+}
+
+#dropdown-content > p {
+  font-size: 16px;
+}
+
+#pay {
+    margin: auto auto 10px auto;
+    width: fit-content;
+    font-size: 1rem;
+}
+
+.modal-custom {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 200px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0,0.1);
+}
+
+.modal-info {
+  background-color: #fefefe;
+  color: black;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}

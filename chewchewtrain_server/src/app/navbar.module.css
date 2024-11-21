@@ -1,0 +1,10 @@
+.navbar_custom {
+  background-color: rgb(8, 66, 152);
+}
+.navbar_custom_loading {
+  opacity: 0%;
+}
+
+.nav-link {
+  color: white;
+}

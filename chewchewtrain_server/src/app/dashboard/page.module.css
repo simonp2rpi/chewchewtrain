@@ -1,0 +1,22 @@
+.text_edit {
+  color: #fff387 !important;
+}
+
+.text_delete {
+  color: #ff8f8f !important;
+  font-size: 75%;
+}
+
+.title {
+  padding: 30px;
+}
+
+.link {
+  color: #fff387 !important;
+}
+
+.add_restaurant_button {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}

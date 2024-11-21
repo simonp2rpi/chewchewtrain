@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src='./index.js'></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Chew Chew Train</title>
+</head>
+
+<body>
+    <div class="content p-3 mx-auto">
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="" alt="" height="30" class="d-inline-block align-text-top">
+                Chew Chew Train
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./landing.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="./profile.html">Profile</a>                           
+              <a class="nav-link" href="./index.html">Logout</a>                    
+            </div>
+          </div>
+        </div>
+      </nav>
+    <h1>Personal Profile</h1>
+    
+    <div class="container">
+        <img class = "pfp" src="profile_pic.jpg" width = "200" height = "200" alt="IMAGE">
+        <div class="pfp-row">
+            <div class="col-md-6 offset-md-3">
+                <p id="first-name">First Name</p>
+                <div class="pfp-box"></div>
+                <p id="last-name">Last Name</p>
+                <div class="pfp-box"></div>
+                <p id="last-name">Username</p>
+                <div class="pfp-box"></div>
+                <p id="last-name">Email</p>
+                <div class="pfp-box"></div>
+                <p id="last-name">Phone Number</p>
+                <div class="pfp-box"></div>
+                <div class="btn">
+                    <button type="button" id="save-button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("login-button").onclick = function () {
+            location.href = "/chewchewtrain/landing.html";
+        };
+    </script>
+    <div class = "footer"> Developed By ITWS 4500 Team 1</div>
+</div>
+</body>
+
+</html>
